@@ -1,14 +1,14 @@
 # DS_AirbnbDataEDA
 
-# Purpose of this Study
+## Purpose of this Study
 
 In this analysis, we are using the Airbnb Seattle dataset provided on Kaggle link 
 
-# Data
+## Data
 
-# Summary of Results
+## Summary of Results
 
-# License
+## License
 BSD 3-Clause License
 
 Copyright (c) 2023, wxzhao15
