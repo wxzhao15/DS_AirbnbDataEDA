@@ -2,7 +2,7 @@
 
 ## Purpose of this Study
 
-In this analysis, we are using the Airbnb Seattle dataset provided on Kaggle link 
+In this analysis, we are using the Airbnb Seattle dataset provided on Kaggle [link](https://www.kaggle.com/datasets/airbnb/seattle) 
 
 ## Data
 
