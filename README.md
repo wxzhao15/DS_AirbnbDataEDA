@@ -3,11 +3,31 @@
 ## Purpose of this Study
 
 In this analysis, we are using the 2016 Airbnb Seattle dataset provided on Kaggle [link](https://www.kaggle.com/datasets/airbnb/seattle) to better understand the price and availability regarding the airbnb listings and potentially the best neighborhood to choose when visiting. We are focusing on the following questions:
-1. How much does it cost to rent in Seattle? 
+1. How's the listing availability and price looks like throughout the year?
 2. What's the best neighborhood to visit in Seattle?
 
 ## Data
 
+There are three data sets available. 
+(a) listings - 3818 rows, 92 columns: showing what listings are there during 2016, including info such as listing avg reviews, average price, cancellation rule, host info, and other features of listing
+(b) reviews - 84,849 rows, 6 columns: contains textual review data along with the review posted date. There are also listing_id and reviewer_id in this dataset that can connect each review to corresponding listing info and reviewer info.
+(c) calendar - 1,393,570 rows, 4 columns: this data structure by listing and calendar date to show whether each listing is available on each calendar date in the full time period (2016 Jan ~ 2017 Jan)
+
+In this analysis, we mainly focus on the listings dataset to find insights regarding the price, features, locations and reviews regarding different listings. We also use calendar dataset to analyze how availability and price changes throughout the year.
+
+## Packages
+
+In this analysis, we will use python packages pandas and numpy in Jupyter Notebook to perform data extraction, data trasformation, and data analytics.  
+
+## Analysis Methods
+
+In this analysis, we will be using the CRISP-DM process while analyzing data. CRISP-DM involves multiple steps as listed in the following:
+1. Business Understanding
+2. Data Understanding
+3. Prepare Data
+4. Model Data
+5. Results
+6. Deploy 
 
 ## Summary of Results
 
