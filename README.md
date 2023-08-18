@@ -2,9 +2,12 @@
 
 ## Purpose of this Study
 
-In this analysis, we are using the Airbnb Seattle dataset provided on Kaggle [link](https://www.kaggle.com/datasets/airbnb/seattle) 
+In this analysis, we are using the 2016 Airbnb Seattle dataset provided on Kaggle [link](https://www.kaggle.com/datasets/airbnb/seattle) to better understand the price and availability regarding the airbnb listings and potentially the best neighborhood to choose when visiting. We are focusing on the following questions:
+1. How much does it cost to rent in Seattle? 
+2. What's the best neighborhood to visit in Seattle?
 
 ## Data
+
 
 ## Summary of Results
 
