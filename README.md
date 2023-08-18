@@ -48,7 +48,7 @@ In this analysis, we will be using the CRISP-DM process while analyzing data. Th
    
    1. _What types of property are listed? How do the price for different property types differ? What other findings regarding he property types?_  
 
-   - the most common obsreved property type in this dataset are Houses and Apartments  
+   - the most common obsreved property type in this dataset are Houses and Apartments. Together these two types of property are around 90% of all the listings in the dataset.
    - Boats has highest listed price in the dataset with $285 per night. However, there are only 8 listings are categorized as "Boat" property type. So it might potetntially possess data bias due to its small sample size. But another possibility is due to its limited supply, the market price of it becomes much higher than the others.  
    - 'Dorm' and 'Tent' have lowest price listed at average $35 to $55 range.  
 
