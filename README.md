@@ -1,33 +1,66 @@
-# DS_AirbnbDataEDA
+# Airbnb Seattle 2016 Listings Analysis
 
 ## Purpose of this Study
 
-In this analysis, we are using the 2016 Airbnb Seattle dataset provided on Kaggle [link](https://www.kaggle.com/datasets/airbnb/seattle) to better understand the price and availability regarding the airbnb listings and potentially the best neighborhood to choose when visiting. We are focusing on the following questions:
-1. How's the listing availability and price looks like throughout the year?
-2. What's the best neighborhood to visit in Seattle?
+In this analysis, we are using the 2016 Airbnb Seattle dataset provided on Kaggle [link](https://www.kaggle.com/datasets/airbnb/seattle) to better understand the price and availability regarding the airbnb listings and potentially the best neighborhood to choose when visiting. We are focusing on the following questions:  
+
+1. What types of property are listed? How do the price for different property types differ?  
+2. How's the listing availability and price looks like throughout the year?  
+3. What's the best neighborhood to visit in Seattle?  
 
 ## Data
 
-There are three data sets available. 
-(a) listings - 3818 rows, 92 columns: showing what listings are there during 2016, including info such as listing avg reviews, average price, cancellation rule, host info, and other features of listing
-(b) reviews - 84,849 rows, 6 columns: contains textual review data along with the review posted date. There are also listing_id and reviewer_id in this dataset that can connect each review to corresponding listing info and reviewer info.
-(c) calendar - 1,393,570 rows, 4 columns: this data structure by listing and calendar date to show whether each listing is available on each calendar date in the full time period (2016 Jan ~ 2017 Jan)
+There are three data sets available.   
+-  listings - 3818 rows, 92 columns:  
+   showing what listings are there during 2016, including info such as listing avg reviews, average price, cancellation rule, host info, and other features of listing  
 
-In this analysis, we mainly focus on the listings dataset to find insights regarding the price, features, locations and reviews regarding different listings. We also use calendar dataset to analyze how availability and price changes throughout the year.
+- reviews - 84,849 rows, 6 columns:  
+   contains textual review data along with the review posted date. There are also listing_id and reviewer_id in this dataset that can connect each review to corresponding listing info and reviewer info.  
+
+- calendar - 1,393,570 rows, 4 columns:  
+   this data structure by listing and calendar date to show whether each listing is available on each calendar date in the full time period (2016 Jan ~ 2017 Jan)  
+
+__In this analysis, we mainly focus on the listings dataset to find insights regarding the price, features, locations and reviews regarding different listings. We also use calendar dataset to analyze how availability and price changes throughout the year.__
 
 ## Packages
 
 In this analysis, we will use python packages pandas and numpy in Jupyter Notebook to perform data extraction, data trasformation, and data analytics.  
 
-## Analysis Methods
+## Analysis Methods  
 
-In this analysis, we will be using the CRISP-DM process while analyzing data. CRISP-DM involves multiple steps as listed in the following:
-1. Business Understanding
-2. Data Understanding
-3. Prepare Data
-4. Model Data
-5. Results
-6. Deploy 
+In this analysis, we will be using the CRISP-DM process while analyzing data. The CRISP-DM process involves multiple steps as listed in the following:  
+1. Business Understanding  
+
+   Understand how does Airbnb operates and get an initial understanding towards the listings. Get to konw some basic quesitons such as the type of property listed, price range, availability 
+
+2. Data Understanding  
+
+   Explore three datasets we have in this project (listing, reviews, calendar). With the datasets we have, we will learn more about hosting side of the operation. With the listing and calendar information we will be able to learn what type of features of listings may be listed at a higher price. But, since we don't have transaction or booking information in this dataset, we are not able to explore the relationship between pricing, booking frequency, return rate hence unable to evaluate the profitability of different listing and its relationship to price and other features.  
+
+3. Prepare Data  
+
+   Since we have 92 columns in listings dataset, a selection of features are chosen to answer each interested business questions. In the process, we will evaluate the missingness of each column and convert data types to suitable one in order to be analyzed.  
+
+4. Model Data  
+   In the Jupyter Notebook through a series of data cleaning and transformation steps we are able to organize data into a clean analyzable format. In the next, a series of grouping and aggregating will be performed on the cleaned datasets to get to averaged metrics.
+
+5. Results 
+   
+   1. _What types of property are listed? How do the price for different property types differ? What other findings regarding he property types?_  
+
+   - the most common obsreved property type in this dataset are Houses and Apartments  
+   - Boats has highest listed price in the dataset with $285 per night. However, there are only 8 listings are categorized as "Boat" property type. So it might potetntially possess data bias due to its small sample size. But another possibility is due to its limited supply, the market price of it becomes much higher than the others.  
+   - 'Dorm' and 'Tent' have lowest price listed at average $35 to $55 range.  
+
+   2. _How's the listing availability and price looks like throughout the year?_  
+   - March and holiday season (from October to December) has most listings available on the webstie
+   - Price wise, the summer listing averaged highest at around $150 per night. The begning of the year from January to March, the price is the lowest with $120~130 per night.  
+
+   3. _What's the best neighborhood to visit in Seattle?_  
+   - 
+
+6. Deploy  
+   The findings of this analysis is posted on Medium [access link](). 
 
 ## Summary of Results
 
