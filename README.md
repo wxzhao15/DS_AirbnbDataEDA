@@ -4,7 +4,7 @@
 
 In this analysis, we are using the 2016 Airbnb Seattle dataset provided on Kaggle [link](https://www.kaggle.com/datasets/airbnb/seattle) to better understand the price and availability regarding the airbnb listings and potentially the best neighborhood to choose when visiting. We are focusing on the following questions:  
 
-1. What types of property are listed? How do the price for different property types differ?  
+1. What types of property are listed? How do the price for different property types differ?
 2. How's the listing availability and price looks like throughout the year?  
 3. What's the best neighborhood to visit in Seattle?  
 
@@ -39,7 +39,7 @@ In this analysis, we will be using the CRISP-DM process while analyzing data. Th
 
 3. Prepare Data  
 
-   Since we have 92 columns in listings dataset, a selection of features are chosen to answer each interested business questions. In the process, we will evaluate the missingness of each column and convert data types to suitable one in order to be analyzed.  
+   Since we have 92 columns in listings dataset, a selection of features are chosen to answer each interested business questions. In the process, we will evaluate the missingness of each column and convert data types to suitable one in order to be analyzed. In this process, we have transformed price column from string to numerical, categorical variable "available" in Calendar dataset to dummy variable, cancellation strictness to ordered numerical levels etc.
 
 4. Model Data  
    In the Jupyter Notebook through a series of data cleaning and transformation steps we are able to organize data into a clean analyzable format. In the next, a series of grouping and aggregating will be performed on the cleaned datasets to get to averaged metrics.
@@ -47,17 +47,16 @@ In this analysis, we will be using the CRISP-DM process while analyzing data. Th
 5. Results 
    
    1. _What types of property are listed? How do the price for different property types differ? What other findings regarding he property types?_  
-
-   - the most common obsreved property type in this dataset are Houses and Apartments. Together these two types of property are around 90% of all the listings in the dataset.
-   - Boats has highest listed price in the dataset with $285 per night. However, there are only 8 listings are categorized as "Boat" property type. So it might potetntially possess data bias due to its small sample size. But another possibility is due to its limited supply, the market price of it becomes much higher than the others.  
-   - 'Dorm' and 'Tent' have lowest price listed at average $35 to $55 range.  
+      - the most common obsreved property type in this dataset are Houses and Apartments. Together these two types of property are around 90% of all the listings in the dataset.  
+      - Boats has highest listed price in the dataset with $285 per night. However, there are only 8 listings are categorized as "Boat" property type. So it might potetntially possess data bias due to its small sample size. But another possibility is due to its limited supply, the market price of it becomes much higher than the others.  
+      - 'Dorm' and 'Tent' have lowest price listed at average $35 to $55 range.  
 
    2. _How's the listing availability and price looks like throughout the year?_  
-   - March and holiday season (from October to December) has most listings available on the webstie
-   - Price wise, the summer listing averaged highest at around $150 per night. The begning of the year from January to March, the price is the lowest with $120~130 per night.  
+      - March and holiday season (from October to December) has most listings available on the webstie
+      - Price wise, the summer listing averaged highest at around $150 per night. The begning of the year from January to March, the price is the lowest with $120~130 per night.  
 
    3. _What's the best neighborhood to visit in Seattle?_  
-   - 
+      - 
 
 6. Deploy  
    The findings of this analysis is posted on Medium [access link](). 
