@@ -52,7 +52,7 @@ In this analysis, we will be using the CRISP-DM process while analyzing data. Th
       - 'Dorm' and 'Tent' have lowest price listed at average $35 to $55 range.  
 
    2. _How's the listing availability and price looks like throughout the year?_  
-      - March and holiday season (from October to December) has most listings available on the webstie
+      - March and holiday season (from October to December) has most listings available on the website  
       - Price wise, the summer listing averaged highest at around $150 per night. The begning of the year from January to March, the price is the lowest with $120~130 per night.  
 
    3. _What's the best neighborhood to visit in Seattle?_  
