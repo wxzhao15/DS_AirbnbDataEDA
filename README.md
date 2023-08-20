@@ -26,7 +26,7 @@ __In this analysis, we mainly focus on the listings dataset to find insights reg
 
 In this analysis, we will use python packages pandas and numpy in Jupyter Notebook to perform data extraction, data trasformation, and data analytics.  
 
-## Analysis Methods  
+## Analysis Methods & Findings
 
 In this analysis, we will be using the CRISP-DM process while analyzing data. The CRISP-DM process involves multiple steps as listed in the following:  
 1. Business Understanding  
@@ -56,12 +56,12 @@ In this analysis, we will be using the CRISP-DM process while analyzing data. Th
       - Price wise, the summer listing averaged highest at around $150 per night. The begning of the year from January to March, the price is the lowest with $120~130 per night.  
 
    3. _What's the best neighborhood to visit in Seattle?_  
-      - 
+      - Really depends on purpose of the trip, preferred property type and budget. In general, if budget is high and interested in renting the whole house, Queen Anne, Ballard, West Seattle are good areas to explore. There are plenty of listings and high historical location review scores.
+      - If interested in renting apartments, among all the area groups, "West Seattle" area rated highest on the location review score (9.79) with averaged listed price per night below $100. If with limited budget but would like to get a good location place, "West Seattle" definitely can be one of the top areas to be considered.
 
 6. Deploy  
    The findings of this analysis is posted on Medium [access link](). 
 
-## Summary of Results
 
 ## License
 BSD 3-Clause License
