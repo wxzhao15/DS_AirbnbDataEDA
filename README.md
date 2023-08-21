@@ -60,7 +60,7 @@ In this analysis, we will be using the CRISP-DM process while analyzing data. Th
       - If interested in renting apartments, among all the area groups, "West Seattle" area rated highest on the location review score (9.79) with averaged listed price per night below $100. If with limited budget but would like to get a good location place, "West Seattle" definitely can be one of the top areas to be considered.
 
 6. Deploy  
-   The findings of this analysis is posted on Medium [access link](). 
+   The findings of this analysis is posted on Medium with article title "A Deeper Look at Airbnb’s 2016 Seattle Listings: Exploring the Relationship Between Property Types, Prices, and Availability" [access link](https://medium.com/@zhaowx15/a-deeper-look-at-airbnbs-2016-seattle-listings-exploring-the-relationship-between-property-types-53b0a3d86e21). 
 
 
 ## License
