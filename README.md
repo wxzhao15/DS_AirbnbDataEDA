@@ -1,5 +1,7 @@
 # Airbnb Seattle 2016 Listings Analysis
 
+__The findings and results are posted on Medium with Article Name "A Deeper Look at Airbnb’s 2016 Seattle Listings: Exploring the Relationship Between Property Types, Prices, and Availability" [access link](https://medium.com/@zhaowx15/a-deeper-look-at-airbnbs-2016-seattle-listings-exploring-the-relationship-between-property-types-53b0a3d86e21).__
+
 ## Purpose of this Study
 
 In this analysis, we are using the 2016 Airbnb Seattle dataset provided on Kaggle [link](https://www.kaggle.com/datasets/airbnb/seattle) to better understand the price and availability regarding the airbnb listings and potentially the best neighborhood to choose when visiting. We are focusing on the following questions:  
