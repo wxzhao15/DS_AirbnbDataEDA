@@ -26,7 +26,7 @@ __In this analysis, we mainly focus on the listings dataset to find insights reg
 
 ## Packages
 
-In this analysis, we will use python packages pandas and numpy in Jupyter Notebook to perform data extraction, data trasformation, and data analytics.  
+In this analysis, we will use python packages pandas and numpy in Jupyter Notebook to perform data extraction, data trasformation, and data analytics. Please refer to "requirements.txt" in parent folder to download related packages used in this project.
 
 ## Analysis Methods & Findings
 
